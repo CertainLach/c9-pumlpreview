@@ -1,0 +1,21 @@
+{
+  "name": "pumlpreview",
+  "description": "",
+  "version": "0.0.1",
+  "author": "F6CF",
+  "contributors": [
+    {
+      "name": "F6CF",
+      "email": "hhhaker6@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Creeplays/c9-pumlpreview"
+  },
+  "plugins": {
+    "pumlpreview": {}
+  },
+  "categories": ["miscellaneous"],
+  "licenses": []
+}
