@@ -8,7 +8,7 @@ define(function (require, exports, module) {
         var ui = imports.ui;
 
         var deflate = require("./deflate.js");
-        var deflateObj={};
+        var deflateObj = {};
         deflate(deflateObj);
         var puml = require("./puml.js");
 
@@ -37,7 +37,7 @@ define(function (require, exports, module) {
 
         function update(e) {
             var session = plugin.activeSession;
-            session.pre.src = puml(session.previewTab.document.value,deflateObj);
+            session.pre.src = puml(session.previewTab.document.value, deflateObj);
         }
 
         /***** Lifecycle *****/
